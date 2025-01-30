@@ -1,7 +1,7 @@
 class figura:
     Lados = 4
     Medidalados = 5
-    def altura(Lados,Medidalados):
+    def area(Lados,Medidalados):
         if Lados = 4:
             print("Es un cuadrado")
             Area = Medidalados * Medidalados
@@ -14,5 +14,6 @@ class figura:
         if Lados = 4:
             perimetro = Medidalados * 4
             print("El perimetro es:", perimetro)
+
 
     
