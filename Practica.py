@@ -1,17 +1,21 @@
+import math
+
 class Figura:
-    def area(Lados, Medidalados):
-        if Lados == 4:
-            print("Es un cuadrado")
-            Area = Medidalados * Medidalados
-            print("El Area es:", Area)
-        elif Lados == 3:
-            print("Es un triangulo")
-    
-    def perimetro(Lados, Medidalados):
-        if Lados == 4:
-            perimetro = Medidalados * 4
-            print("El perimetro es:", perimetro)
+    def Poly(Lados,nLados):
+        if nLados > 4: 
+            P = Lados * nLados
+            A = (nLados * Lados**2) / (4 * math.tan(math.pi / nLados))
+        else:
+            P = None
+            A = None
+        return P, A
 
-Figura.area(4, 5)
-Figura.perimetro(4, 5)
+# Get user input
+nLados = int(input("Ingrese el número de lados: "))
+Lados = float(input("Ingrese el tamaño de los lados: "))
 
+# Calculate perimeter and area
+perimetro, area = Figura.Poly(Lados, nLados)
+
+print(f"Perímetro: {perimetro}")
+print(f"Area: {area}")

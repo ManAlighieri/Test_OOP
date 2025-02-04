@@ -1,5 +1,5 @@
 #Repositorio-POO
-Clase
-""" Python
-Print("Hola Mundo")
-"""
+#Clase
+#""" Python
+#Print("Hola Mundo")
+#"""
