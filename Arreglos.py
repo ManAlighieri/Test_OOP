@@ -9,7 +9,7 @@ class Galletas:
         print(f"TOTAL GALLETAS: {self.galletas}")
         print(f"TOTAL GALLETAS: {self.chocolate}")
         print(f"TOTAL GALLETAS: {self.vanilla}")
-
+    
 mis_galletas = Galletas(50,20,30)
 mis_galletas.display()
 
