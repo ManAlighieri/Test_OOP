@@ -1,5 +1,4 @@
 import numpy as np
-from numpy import array
 
 lista1 = [1,1.1,3,"Pepe","Serch"]
 lista2 = np.array([1,2,3,4,5])
