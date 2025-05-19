@@ -8,9 +8,19 @@ conj1 = set(lista1)
 
 tupla2 = tuple(lista2)
 conj2 = set(lista2)
+
+lista1.append(5)
+lista1.insert(1,"Hola")
+lista1.extend([2,"Hola2"])
+lista1.index(1)
+lista1.count(1)
+x = 1 in lista1
+
+
 diccionario = {"1":1,
                "2":True,
                "3": 3.3,
                "4": "4",
                "5":{1}}
 print(tupla2)
+
