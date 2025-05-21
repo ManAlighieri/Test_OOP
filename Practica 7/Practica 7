@@ -1,0 +1,47 @@
+class Vehiculo:
+    def __init__(self, marca, modelo):
+        self.marca = marca
+        self.modelo = modelo
+
+    def describir(self):
+        return f"{self.marca} {self.modelo}"
+
+
+class Camion(Vehiculo):
+    def __init__(self, marca, modelo, capacidad_toneladas):
+        super().__init__(marca, modelo)
+        self.capacidad_toneladas = capacidad_toneladas
+
+    def describir(self):
+        return f"Camión: {super().describir()}, capacidad: {self.capacidad_toneladas} toneladas"
+
+
+class Moto(Vehiculo):
+    def __init__(self, marca, modelo, cilindrada):
+        super().__init__(marca, modelo)
+        self.cilindrada = cilindrada
+
+    def describir(self):
+        return f"Moto: {super().describir()}, {self.cilindrada}cc"
+
+
+class Autobus(Vehiculo):
+    def __init__(self, marca, modelo, pasajeros):
+        super().__init__(marca, modelo)
+        self.pasajeros = pasajeros
+
+    def describir(self):
+        return f"Autobús: {super().describir()}, {self.pasajeros} pasajeros"
+
+
+flota = [
+    Camion("Volvo", "FH16", 20),
+    Moto("Yamaha", "R3", 321),
+    Autobus("Mercedes-Benz", "Sprinter", 18),
+]
+
+mi_camion = Camion("Volvo", "FH16", 20)
+print(mi_camion.describir())
+
+mi_moto = Moto("Yamaha", "R3", 321)
+print(mi_moto.describir())
