@@ -1,4 +1,3 @@
-#Practica 14
 import json
 import requests
 

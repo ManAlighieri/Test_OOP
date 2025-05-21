@@ -1,4 +1,3 @@
-#Practica 16
 import threading
 import time
 
