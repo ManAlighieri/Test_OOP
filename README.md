@@ -1,6 +1,6 @@
 # Repositorio de Prácticas - Alejandro de Jesus Delgado Gonzalez
 
-Índice de prácticas disponibles en este repositorio:
+Índice de prácticas de este repositorio:
 - [Práctica 1](https://github.com/ManAlighieri/Test_OOP/tree/main/Practica%201)
 - [Práctica 2-3](https://github.com/ManAlighieri/Test_OOP/tree/main/Practica%202-3)
 - [Práctica 4](https://github.com/ManAlighieri/Test_OOP/tree/main/Practica%204)
@@ -16,4 +16,4 @@
 - [Práctica 15](https://github.com/ManAlighieri/Test_OOP/tree/main/Practica%2015)
 - [Práctica 16](https://github.com/ManAlighieri/Test_OOP/tree/main/Practica%2016)
 
-Todos los archivos están disponibles en el **repositorio principal** (https://github.com/ManAlighieri/Test_OOP)
+Todos las practicas están en el **repositorio principal** (https://github.com/ManAlighieri/Test_OOP)
